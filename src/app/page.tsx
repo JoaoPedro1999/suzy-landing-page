@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import { CheckCircle } from 'react-feather'
+import { CheckCircle, Package, Gift } from 'react-feather'
+import { Ticket, PiggyBank } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -245,7 +246,7 @@ export default function Home() {
                 há anos e sempre eremos mais coisas a descobrir e desenvolver. E
                 hoje desenvolve técnicas e ferramentas para a expansão de
                 consciência,, prosperidade física, emocional, mental e
-                financeira.{' '}
+                financeira.
               </p>
               <p className="font-medium text-gray-100 my-2">
                 Estou aqui para te mostrar, em 5 encontros, a diferença que
@@ -260,23 +261,148 @@ export default function Home() {
       </section>
 
       <section className="w-full pt-20 pb-20 bg-gradient-to-b to-black from-[#390a57]">
-        <div className="flex items-center justify-center flex-col gap-7">
-          <Image
-            src={'/logo-suzy-new-3-branco-small.png'}
-            width={450}
-            height={96}
-            alt="Logo"
-          />
-          <span className="text-4xl">
-            12x De <strong className="text-6xl">R$ 200,00</strong>
-          </span>
-          <span className="text-3xl">ou R$ 2000,00 à vista</span>
-          <a
-            href="#offer"
-            className="group flex w-full items-center justify-center gap-2 rounded-[0.625rem] px-6 text-sm font-bold uppercase leading-[16.41px] text-white transition-colors disabled:cursor-not-allowed disabled:opacity-75 md:w-fit max-h-[3.25rem] py-[1.125rem] bg-[#390a57] hover:bg-purple-600"
-          >
-            EU QUERO
-          </a>
+        <div className="mx-auto max-w-[78.5rem] flex flex-col px-5 items-center lg:items-center">
+          <div className="mx-auto space-y-10">
+            <div className="space-y-4">
+              <Image
+                src={'/logo-suzy-new-3-branco-small.png'}
+                width={450}
+                height={96}
+                alt="Logo"
+                className="mx-auto"
+              />
+
+              <div className="space-y-4">
+                <h2 className="text-xl font-medium text-white lg:text-3xl text-center">
+                  O que eu recebo ao adquirir o curso?
+                </h2>
+              </div>
+
+              <div className="space-y-6">
+                <div className="flex flex-col lg:flex-row lg:justify-around space-y-6 lg:space-y-0 gap-6">
+                  <div className="flex items-center gap-4 my-2">
+                    <Image
+                      src={'https://picsum.photos/250/250'}
+                      alt="Imagem"
+                      height={250}
+                      width={250}
+                      className="mx-auto"
+                    />
+                  </div>
+                  <div className="flex items-center justify-center flex-col gap-4 my-2">
+                    <span className="max-w-[325px] w-full font-bold text-gray-100 lg:text-lg text-center lg:text-left">
+                      Mesa Radiônica Essencial Kuanyin
+                    </span>
+                    <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
+                      No valor de 190,00
+                    </span>
+                  </div>
+                </div>
+                <div className="flex flex-col lg:flex-row lg:justify-around space-y-6 lg:space-y-0 gap-6">
+                  <div className="flex items-center my-2">
+                    <Image
+                      src={'https://picsum.photos/250/250'}
+                      alt="Imagem"
+                      height={250}
+                      width={250}
+                      className="mx-auto"
+                    />
+                  </div>
+                  <div className="flex items-center justify-center flex-col gap-4 my-2">
+                    <span className="max-w-[325px] w-full font-bold text-gray-100 lg:text-lg text-center lg:text-left">
+                      Kit para trabalhar e alinhar a mesa
+                    </span>
+                    <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
+                      No valor de 90,00
+                    </span>
+                  </div>
+                </div>
+                <div className="flex flex-col lg:flex-row lg:justify-around space-y-6 lg:space-y-0 gap-6">
+                  <div className="flex items-center my-2">
+                    <Image
+                      src={'https://picsum.photos/250/250'}
+                      alt="Imagem"
+                      height={250}
+                      width={250}
+                      className="mx-auto"
+                    />
+                  </div>
+                  <div className="flex items-center justify-center flex-col gap-4 my-2">
+                    <span className="max-w-[325px] w-full font-bold text-gray-100 lg:text-lg text-center lg:text-left">
+                      Caixa de madeira maravilhosa, para você organizar seu
+                      material e levar junto com você{' '}
+                    </span>
+                    <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
+                      No valor de 150,00
+                    </span>
+                  </div>
+                </div>
+                <div className="flex flex-col lg:flex-row lg:justify-around space-y-6 lg:space-y-0 gap-6">
+                  <div className="flex items-center my-2">
+                    <Image
+                      src={'https://picsum.photos/250/250'}
+                      alt="Imagem"
+                      height={250}
+                      width={250}
+                      className="mx-auto"
+                    />
+                  </div>
+                  <div className="flex items-center justify-center flex-col gap-4 my-2">
+                    <span className="max-w-[325px] w-full font-bold text-gray-100 lg:text-lg text-center lg:text-left">
+                      Caixa de incenso Kuanyin para purificação do ambiente
+                    </span>
+                    <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
+                      No valor de 22,00
+                    </span>
+                  </div>
+                </div>
+                <div className="flex flex-col lg:flex-row lg:justify-around border-solid border-2	border-white p-6">
+                  <div className="flex items-center justify-center gap-4">
+                    <Package size={48} />
+                    <span className="max-w-[423px] w-full font-bold uppercase text-gray-100 lg:text-2xl">
+                      Frete gratuito para o Brasil
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="pt-6">
+                <div className="flex flex-col items-center justify-center gap-4">
+                  <div className="flex items-center justify-center gap-2">
+                    <div className="w-fit overflow-hidden border border-transparent bg-gradient-to-b from-gray-600 to-gray-600/30 bg-origin-border rounded-full">
+                      <div className="flex max-h-8 w-fit items-center bg-black/50 p-2 lg:h-9 lg:px-4 rounded-full">
+                        <span className="text-xs lg:text-sm font-mono font-medium">
+                          <div className="flex items-center gap-2 text-green-400">
+                            <Ticket size={20} />
+                            <span>30% OFF</span>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                    <span className="text-xs font-bold uppercase tracking-widest text-yellow-400">
+                      1 ano de acesso
+                    </span>
+                  </div>
+                  <span className="text-3xl">
+                    12x De <strong className="text-5xl">R$ 200,00</strong>
+                  </span>
+                  <p>
+                    De <span className="line-through">R$ 2.000</span> por apenas
+                    R$ 1400 à vista
+                  </p>{' '}
+                  <span className="flex items-center gap-2 text-xs font-bold uppercase text-green-400">
+                    <PiggyBank size={24} />
+                    economia de R$ 700
+                  </span>
+                  <a
+                    href="#offer"
+                    className="group flex w-full items-center justify-center gap-2 rounded-[0.625rem] px-6 text-sm font-bold uppercase leading-[16.41px] text-white transition-colors disabled:cursor-not-allowed disabled:opacity-75 md:w-fit max-h-[3.25rem] py-[1.125rem] bg-[#390a57] hover:bg-purple-600"
+                  >
+                    Eu quero a Minha MRK
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
