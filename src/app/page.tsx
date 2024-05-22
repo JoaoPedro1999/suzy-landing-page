@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Ticket, PiggyBank, Package, CheckCircle } from 'lucide-react'
+import { Ticket, PiggyBank, CheckCircle, Gift } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -275,9 +275,6 @@ export default function Home() {
                     <span className="max-w-[325px] w-full font-bold text-gray-100 lg:text-lg text-center lg:text-left">
                       Mesa Radiônica Essencial Kuanyin
                     </span>
-                    {/* <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
-                      No valor de R$ 190,00
-                    </span> */}
                   </div>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:justify-around space-y-6 lg:space-y-0 gap-6">
@@ -294,9 +291,6 @@ export default function Home() {
                     <span className="max-w-[325px] w-full font-bold text-gray-100 lg:text-lg text-center lg:text-left">
                       Kit para trabalhar e alinhar a mesa
                     </span>
-                    {/* <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
-                      No valor de R$ 90,00
-                    </span> */}
                   </div>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:justify-around space-y-6 lg:space-y-0 gap-6">
@@ -314,9 +308,6 @@ export default function Home() {
                       Caixa de madeira maravilhosa, para você organizar seu
                       material e levar junto com você{' '}
                     </span>
-                    {/* <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
-                      No valor de R$ 150,00
-                    </span> */}
                   </div>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:justify-around space-y-6 lg:space-y-0 gap-6">
@@ -333,23 +324,20 @@ export default function Home() {
                     <span className="max-w-[325px] w-full font-bold text-gray-100 lg:text-lg text-center lg:text-left">
                       Caixa de incenso Kuanyin para purificação do ambiente
                     </span>
-                    {/* <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
-                      No valor de R$ 22,00
-                    </span> */}
                   </div>
                 </div>
-                <div className="flex flex-col lg:flex-row lg:justify-around border-solid border-2	border-white p-6">
-                  <div className="flex items-center justify-center gap-4">
-                    <Package size={48} />
-                    <span className="max-w-[423px] w-full font-bold uppercase text-gray-100 lg:text-2xl">
-                      Frete gratuito para o Brasil
+                <div className="flex flex-col lg:flex-row lg:justify-around border-solid border-2	border-white p-3">
+                  <div className="flex items-center justify-center gap-3">
+                    <Gift size={48} />
+                    <span className="w-full font-bold uppercase text-gray-100 lg:text-lg">
+                      Todos os itens serão enviados no final do curso
                     </span>
                   </div>
                 </div>
               </div>
               <div className="pt-6">
                 <div className="flex flex-col items-center justify-center gap-4">
-                  <div className="flex items-center justify-center gap-2">
+                  <div className="flex items-center justify-center gap-4">
                     <div className="w-fit overflow-hidden border border-transparent bg-gradient-to-b from-gray-600 to-gray-600/30 bg-origin-border rounded-full">
                       <div className="flex max-h-8 w-fit items-center bg-black/50 p-2 lg:h-9 lg:px-4 rounded-full">
                         <span className="text-xs lg:text-sm font-mono font-medium">
