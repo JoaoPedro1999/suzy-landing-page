@@ -30,10 +30,10 @@ export default function Home() {
             alt="Logo"
           />
           <div className="flex flex-col items-center gap-4 text-center lg:items-start lg:text-start">
-            <h1 className="max-w-[560px] text-3xl font-normal text-white lg:text-5xl/[57.6px]">
+            <h1 className="max-w-[560px] text-3xl font-normal text-gray-100 lg:text-5xl/[57.6px]">
               Curso Mesa Radiônica Essencial KuanYin
             </h1>
-            <p className="max-w-[500px] lg:text-xl">
+            <p className="max-w-[500px] lg:text-xl text-gray-100">
               Aprenda inúmeras formas de tratar profundamente os processos de
               expansão de consciência, de seus clientes, em todas as áreas
               escolhidas.
@@ -105,12 +105,12 @@ export default function Home() {
         <div className="mx-auto max-w-[78.5rem] flex flex-col px-5 lg:items-center">
           <div className="mx-auto space-y-10">
             <div className="space-y-4">
-              <h2 className="text-3xl font-medium text-white lg:text-4xl text-center">
+              <h2 className="text-3xl font-medium text-gray-100 lg:text-4xl text-center">
                 O que você aprende no curso da Mesa Radiônica e Psiônica
                 Essencial KuanYin?
               </h2>
 
-              <p className="text-center">
+              <p className="text-center text-gray-100">
                 Esse é um curso muito além de aprender a trabalhar com uma Mesa
                 Radiônica, pois nele, você entenderá os fundamentos básicos de
                 radiestesia, a força da mãe, Deusa e Mestra KuanYin que está
@@ -186,18 +186,6 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-
-              {/* <div className="flex flex-col lg:flex-row lg:justify-around">
-                <div className="flex items-center gap-4">
-                  <CheckCircle size={24} />
-                  <span className="max-w-[423px] w-full font-medium text-gray-100 lg:text-lg">
-                    Aprender a atuação dela na elevação da Frequência
-                    Vibracional, limpeza, harmonização e ativação dos campos da
-                    saúde física, emocional, energia vital, amor próprio é amor
-                    para relacionamentos, profissional e financeira.
-                  </span>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>
@@ -210,7 +198,7 @@ export default function Home() {
           </div>
           <div className="w-full max-w-[586px] space-y-10">
             <div className="space-y-4">
-              <h2 className="text-2xl font-medium text-white lg:text-4xl">
+              <h2 className="text-2xl font-medium text-gray-100 lg:text-4xl">
                 Sobre a sua professora
               </h2>
             </div>
@@ -267,7 +255,7 @@ export default function Home() {
               />
 
               <div className="space-y-4">
-                <h2 className="text-xl font-medium text-white lg:text-3xl text-center">
+                <h2 className="text-xl font-medium text-gray-100 lg:text-3xl text-center">
                   O que eu recebo ao adquirir o curso?
                 </h2>
               </div>
@@ -287,9 +275,9 @@ export default function Home() {
                     <span className="max-w-[325px] w-full font-bold text-gray-100 lg:text-lg text-center lg:text-left">
                       Mesa Radiônica Essencial Kuanyin
                     </span>
-                    <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
+                    {/* <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
                       No valor de R$ 190,00
-                    </span>
+                    </span> */}
                   </div>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:justify-around space-y-6 lg:space-y-0 gap-6">
@@ -306,9 +294,9 @@ export default function Home() {
                     <span className="max-w-[325px] w-full font-bold text-gray-100 lg:text-lg text-center lg:text-left">
                       Kit para trabalhar e alinhar a mesa
                     </span>
-                    <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
+                    {/* <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
                       No valor de R$ 90,00
-                    </span>
+                    </span> */}
                   </div>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:justify-around space-y-6 lg:space-y-0 gap-6">
@@ -326,9 +314,9 @@ export default function Home() {
                       Caixa de madeira maravilhosa, para você organizar seu
                       material e levar junto com você{' '}
                     </span>
-                    <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
+                    {/* <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
                       No valor de R$ 150,00
-                    </span>
+                    </span> */}
                   </div>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:justify-around space-y-6 lg:space-y-0 gap-6">
@@ -345,9 +333,9 @@ export default function Home() {
                     <span className="max-w-[325px] w-full font-bold text-gray-100 lg:text-lg text-center lg:text-left">
                       Caixa de incenso Kuanyin para purificação do ambiente
                     </span>
-                    <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
+                    {/* <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
                       No valor de R$ 22,00
-                    </span>
+                    </span> */}
                   </div>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:justify-around border-solid border-2	border-white p-6">
@@ -376,13 +364,16 @@ export default function Home() {
                       1 ano de acesso
                     </span>
                   </div>
-                  <span className="text-2xl lg:text-3xl">
+                  <span className="text-2xl lg:text-3xl text-gray-100">
                     12x De{' '}
-                    <strong className="text-3xl lg:text-5xl">R$ 139,72</strong>
+                    <strong className="text-3xl lg:text-5xl text-gray-100">
+                      R$ 139,72
+                    </strong>
                   </span>
-                  <p>
-                    De <span className="line-through">R$ 2.000</span> por apenas
-                    R$ 1400 à vista
+                  <p className="text-gray-100">
+                    De{' '}
+                    <span className="line-through text-gray-100">R$ 2.000</span>{' '}
+                    por apenas R$ 1400 à vista
                   </p>{' '}
                   <span className="flex items-center gap-2 text-xs font-bold uppercase text-green-400">
                     <PiggyBank size={24} />
