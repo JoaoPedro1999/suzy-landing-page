@@ -1,17 +1,16 @@
 import Image from 'next/image'
-import { CheckCircle, Package, Gift } from 'react-feather'
-import { Ticket, PiggyBank } from 'lucide-react'
+import { Ticket, PiggyBank, Package, CheckCircle } from 'lucide-react'
 
 export default function Home() {
   return (
     <main className="w-full h-screen">
       <section className="relative w-full pt-20 pb-20 bg-gradient-to-b from-[#390a57] to-black">
-        {/* <Image
-          src={'/background.png'}
+        <Image
+          src={'/hero.svg'}
           width={3840}
           height={1132}
           alt="Logo"
-          className="hidden object-cover object-right lg:flex"
+          className="object-cover object-center lg:flex"
           style={{
             position: 'absolute',
             height: '100%',
@@ -22,7 +21,7 @@ export default function Home() {
             bottom: 0,
             color: 'transparent',
           }}
-        /> */}
+        />
         <div className="relative z-10 mx-auto flex w-full max-w-[78.5rem] flex-col items-center gap-6 px-5 lg:items-start lg:gap-8">
           <Image
             src={'/logo-suzy-new-3-branco-small.png'}
@@ -44,10 +43,12 @@ export default function Home() {
           <div className="flex w-full flex-col items-center gap-4">
             <div className="flex w-full flex-col items-center gap-4 lg:flex-row lg:gap-8">
               <a
-                href="#offer"
+                href="https://hotm.art/ccnrn70"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group flex w-full items-center justify-center gap-2 rounded-[0.625rem] px-6 text-md font-bold uppercase leading-[16.41px] text-white transition-colors disabled:cursor-not-allowed disabled:opacity-75 md:w-fit max-h-[3.25rem] py-[1.125rem] bg-[#390a57] hover:bg-purple-700"
               >
-                EU QUERO
+                Eu quero a Minha MRK
               </a>
             </div>
           </div>
@@ -140,13 +141,14 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                   <CheckCircle size={24} />
                   <span className="max-w-[423px] w-full font-medium text-gray-100 lg:text-lg">
-                    O uso do pêndulo
+                    A forma correta de utilizar o pendulo para trazer as
+                    respostas necesáias
                   </span>
                 </div>
                 <div className="flex items-center gap-4">
                   <CheckCircle size={24} />
                   <span className="max-w-[423px] w-full font-medium text-gray-100 lg:text-lg">
-                    A definição da Geometria Sagrada usada na MEK;
+                    A definição da Geometria Sagrada usada na MEK
                   </span>
                 </div>
               </div>
@@ -156,14 +158,14 @@ export default function Home() {
                   <CheckCircle size={24} />
                   <span className="max-w-[423px] w-full font-medium text-gray-100 lg:text-lg">
                     Radiestesia e Radiônica na Mesa e os arcanjos e símbolos de
-                    cura e transmutação;
+                    cura e transmutação
                   </span>
                 </div>
                 <div className="flex items-center gap-4">
                   <CheckCircle size={24} />
                   <span className="max-w-[423px] w-full font-medium text-gray-100 lg:text-lg">
                     Como limpar, alinhar e elevar, harmonizando cada área da sua
-                    vida;
+                    vida
                   </span>
                 </div>
               </div>
@@ -173,20 +175,19 @@ export default function Home() {
                   <CheckCircle size={24} />
                   <span className="max-w-[423px] w-full font-medium text-gray-100 lg:text-lg">
                     Como trabalhar com objetivos claros e bem definidos como
-                    metas de manifestação;
+                    metas de manifestação
                   </span>
                 </div>
                 <div className="flex items-center gap-4">
                   <CheckCircle size={24} />
                   <span className="max-w-[423px] w-full font-medium text-gray-100 lg:text-lg">
                     Aprender a fazer tratamentos individuais, coletivos (grupo),
-                    locais e residências, empresas, pets e crianças e muito
-                    mais.
+                    locais e residências, empresas, pets, crianças e muito mais.
                   </span>
                 </div>
               </div>
 
-              <div className="flex flex-col lg:flex-row lg:justify-around">
+              {/* <div className="flex flex-col lg:flex-row lg:justify-around">
                 <div className="flex items-center gap-4">
                   <CheckCircle size={24} />
                   <span className="max-w-[423px] w-full font-medium text-gray-100 lg:text-lg">
@@ -196,7 +197,7 @@ export default function Home() {
                     para relacionamentos, profissional e financeira.
                   </span>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -205,14 +206,7 @@ export default function Home() {
       <section className="w-full pt-20 pb-20 bg-gradient-to-b from-black to-[#390a57]">
         <div className="mx-auto flex justify-between w-full max-w-[78.5rem] flex-col gap-10 px-5 lg:flex-row lg:items-center">
           <div className="w-full">
-            <Image
-              src={
-                '/pixlr-image-generator-5ffb7118-b485-45fc-9c55-0d82ec89f088.png'
-              }
-              width={500}
-              height={500}
-              alt="KuanYin"
-            />
+            <Image src={'/teacher.webp'} width={500} height={500} alt="Suzy" />
           </div>
           <div className="w-full max-w-[586px] space-y-10">
             <div className="space-y-4">
@@ -282,8 +276,8 @@ export default function Home() {
                 <div className="flex flex-col lg:flex-row lg:justify-around space-y-6 lg:space-y-0 gap-6">
                   <div className="flex items-center gap-4 my-2">
                     <Image
-                      src={'https://picsum.photos/250/250'}
-                      alt="Imagem"
+                      src={'/table.webp'}
+                      alt="Table"
                       height={250}
                       width={250}
                       className="mx-auto"
@@ -294,15 +288,15 @@ export default function Home() {
                       Mesa Radiônica Essencial Kuanyin
                     </span>
                     <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
-                      No valor de 190,00
+                      No valor de R$ 190,00
                     </span>
                   </div>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:justify-around space-y-6 lg:space-y-0 gap-6">
                   <div className="flex items-center my-2">
                     <Image
-                      src={'https://picsum.photos/250/250'}
-                      alt="Imagem"
+                      src={'/pendulo.webp'}
+                      alt="Pendulo"
                       height={250}
                       width={250}
                       className="mx-auto"
@@ -313,15 +307,15 @@ export default function Home() {
                       Kit para trabalhar e alinhar a mesa
                     </span>
                     <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
-                      No valor de 90,00
+                      No valor de R$ 90,00
                     </span>
                   </div>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:justify-around space-y-6 lg:space-y-0 gap-6">
                   <div className="flex items-center my-2">
                     <Image
-                      src={'https://picsum.photos/250/250'}
-                      alt="Imagem"
+                      src={'/box.webp'}
+                      alt="Box"
                       height={250}
                       width={250}
                       className="mx-auto"
@@ -333,15 +327,15 @@ export default function Home() {
                       material e levar junto com você{' '}
                     </span>
                     <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
-                      No valor de 150,00
+                      No valor de R$ 150,00
                     </span>
                   </div>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:justify-around space-y-6 lg:space-y-0 gap-6">
                   <div className="flex items-center my-2">
                     <Image
-                      src={'https://picsum.photos/250/250'}
-                      alt="Imagem"
+                      src={'/incenso.webp'}
+                      alt="Incenso"
                       height={250}
                       width={250}
                       className="mx-auto"
@@ -352,7 +346,7 @@ export default function Home() {
                       Caixa de incenso Kuanyin para purificação do ambiente
                     </span>
                     <span className="max-w-[325px] w-full font-medium text-gray-100 lg:text-lg text-center lg:text-left">
-                      No valor de 22,00
+                      No valor de R$ 22,00
                     </span>
                   </div>
                 </div>
@@ -382,8 +376,9 @@ export default function Home() {
                       1 ano de acesso
                     </span>
                   </div>
-                  <span className="text-3xl">
-                    12x De <strong className="text-5xl">R$ 200,00</strong>
+                  <span className="text-2xl lg:text-3xl">
+                    12x De{' '}
+                    <strong className="text-3xl lg:text-5xl">R$ 139,72</strong>
                   </span>
                   <p>
                     De <span className="line-through">R$ 2.000</span> por apenas
@@ -391,11 +386,13 @@ export default function Home() {
                   </p>{' '}
                   <span className="flex items-center gap-2 text-xs font-bold uppercase text-green-400">
                     <PiggyBank size={24} />
-                    economia de R$ 700
+                    economia de R$ 600
                   </span>
                   <a
-                    href="#offer"
-                    className="group flex w-full items-center justify-center gap-2 rounded-[0.625rem] px-6 text-sm font-bold uppercase leading-[16.41px] text-white transition-colors disabled:cursor-not-allowed disabled:opacity-75 md:w-fit max-h-[3.25rem] py-[1.125rem] bg-[#390a57] hover:bg-purple-600"
+                    href="https://hotm.art/ccnrn70"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex w-full items-center justify-center gap-2 rounded-[0.625rem] px-6 text-md font-bold uppercase leading-[16.41px] text-white transition-colors disabled:cursor-not-allowed disabled:opacity-75 md:w-fit max-h-[3.25rem] py-[1.125rem] bg-[#390a57] hover:bg-purple-700"
                   >
                     Eu quero a Minha MRK
                   </a>
@@ -421,14 +418,30 @@ export default function Home() {
             </div>
             <a
               className="group flex w-full items-center justify-center gap-2 rounded-[0.625rem] px-6 text-sm font-bold uppercase leading-[16.41px] transition-colors disabled:cursor-not-allowed disabled:opacity-75 md:w-fit max-h-[3.25rem] py-[1.125rem] bg-green-600 text-white hover:bg-green-500 hover:text-white"
-              href="https://api.whatsapp.com/send?phone=5547992396940&amp;text=Oi!%20Quero%20garantir%20a%20oferta%20de%205%20anos!"
-              // id="gtm-faq-button-whatsapp"
+              href="https://api.whatsapp.com/send?phone=5516991825671&amp;text=Oi!%20Preciso%20de%20ajuda!"
               rel="noopener noreferrer"
               target="_blank"
             >
               Chamar no WhatsApp
             </a>
           </div>
+        </div>
+      </section>
+
+      <section className="w-full bg-black pb-2">
+        <div className="flex items-start justify-between mx-auto max-w-[1256px] px-5">
+          <span className="text-gray-600 text-sm">
+            Feito com ❤️ por{' '}
+            <a
+              href="https://www.linkedin.com/in/joao-pedro-beck-land/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Beck Land
+            </a>
+          </span>
+
+          <span className="text-gray-600 text-sm">2024</span>
         </div>
       </section>
     </main>
