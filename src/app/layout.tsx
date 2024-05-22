@@ -21,7 +21,9 @@ export default function RootLayout({
     <html lang="pt-BR">
       <meta name="theme-color" content="#390a57" />
       <body className={montserrat.className}>{children}</body>
-      <GoogleAnalytics gaId="G-DFJY4MQZW4" />
+      {/* <GoogleAnalytics gaId="G-DFJY4MQZW4" /> */}
+      <GoogleAnalytics gaId="G-D3XE7FPQPS" />
+
       <Analytics />
     </html>
   )
