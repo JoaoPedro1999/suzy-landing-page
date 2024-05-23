@@ -396,7 +396,7 @@ export default function Home() {
               </div>
             </div>
             <a
-              className="group flex w-full items-center justify-center gap-2 rounded-[0.625rem] px-6 text-sm font-bold uppercase leading-[16.41px] transition-colors disabled:cursor-not-allowed disabled:opacity-75 md:w-fit max-h-[3.25rem] py-[1.125rem] bg-green-600 text-white hover:bg-green-500 hover:text-white"
+              className="group flex w-full items-center justify-center gap-2 rounded-[0.625rem] px-6 text-sm font-bold uppercase leading-[16.41px] transition-colors disabled:cursor-not-allowed disabled:opacity-75 md:w-fit max-h-[3.25rem] py-[1.125rem] bg-green-700 text-gray-100 hover:bg-green-600 hover:text-white"
               href="https://api.whatsapp.com/send?phone=5516991825671&amp;text=Oi!%20Preciso%20de%20ajuda!"
               rel="noopener noreferrer"
               target="_blank"
@@ -409,7 +409,7 @@ export default function Home() {
 
       <section className="w-full bg-black pb-2">
         <div className="flex items-start justify-between mx-auto max-w-[1256px] px-5">
-          <span className="text-gray-600 text-sm">
+          <span className="text-gray-200 text-sm">
             Feito com ❤️ por{' '}
             <a
               href="https://www.linkedin.com/in/joao-pedro-beck-land/"
@@ -420,7 +420,7 @@ export default function Home() {
             </a>
           </span>
 
-          <span className="text-gray-600 text-sm">2024</span>
+          <span className="text-gray-200 text-sm">2024</span>
         </div>
       </section>
     </main>
