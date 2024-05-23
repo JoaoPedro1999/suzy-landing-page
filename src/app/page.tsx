@@ -6,9 +6,9 @@ export default function Home() {
     <main className="w-full h-screen">
       <section className="relative w-full pt-20 pb-20 bg-gradient-to-b from-[#390a57] to-black">
         <Image
-          src={'/hero.svg'}
-          width={3840}
-          height={1132}
+          src={'/hero.webp'}
+          width={2560}
+          height={755}
           alt="Logo"
           className="object-cover object-center lg:flex"
           style={{
